@@ -24,17 +24,14 @@ export default function FoodReviewPage() {
         Submit Review
       </Button>
 
-      <Group>
-        <Center maw={400} h={100} mx="auto">
-      <Title order={4} mt='sm'>
-        Elon Musk
-        <Rating ml="xs" size="sm"/>
-        <Text order={4} mt='sm'>
-        Best pizza in the world.I give you X score;
-      </Text>
-      </Title>
-      </Center>
+      <Divider my="sm" />
+      <Group position="center">
+        <Title order={4}>Elon Musk</Title>
+        <Rating value={5} fractions={2} readOnly></Rating>
       </Group>
+      <Text align="center" fz="md" color="gray">
+        Best pizza in this world. I give you X score.
+      </Text>
 
       <Divider my="sm" />
       <Group position="center">
