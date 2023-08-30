@@ -1,5 +1,14 @@
 "use client";
-import { Button,Container,Text,Textarea,Title,Divider,Group,Pagination,Rating} from "@mantine/core";
+import { Button,
+  Container,
+  Text,
+  Textarea,
+  Title,
+  Divider,
+  Group,
+  Pagination,
+  Rating
+} from "@mantine/core";
 
 export default function FoodReviewPage() {
   return (
